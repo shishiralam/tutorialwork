@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="/css/master.css">
+    <title>Question Page</title>
+
+    <style media="screen">
+      p{color:blue;}
+
+      input:invalid{
+        border:dashed;
+        border-color: red;
+      }
+
+      .mytext{
+        width: 250px;
+        height: 100px;
+      }
+      h2{color: red;}
+      fieldset{background-color: #FAE6F7; }
+
+    </style>
+  </head>
+  <body>
+    <fieldset>
+    <table>
+      <td><img src="image/logo.jpg" alt="LOGO" height="150" width="150"></td>
+      <td><h1>Online shopping</h1></td>
+    </table>
+    <nav>
+<a href="index.html"><p>Home</a> |
+<a href="contact.html">Contact</a> |
+<a href="question.html">Question</a> |
+<a href="https://www.facebook.com/">Facebook</a> |
+</nav>
+<br><br>
+<h2>How Can we help you?</h2>
+
+<hr>
+
+<form class="" action="index.html" method="post">
+  <label for="Name" maxlength="5" ><p>Name: </label>
+  <input type="text" name="Name" value="" required></p>
+
+  <select class="Topic" name="Topic">
+    <option selected value="Topic">Topic</option>
+    <option value="Topic">Topic</option>
+  </select>
+  <br><br>
+
+  <label for="Question" ><p>Question:</p> </label>
+  <input type="text" name="Question" value="" required style class="mytext" ><br>
+
+  <label for="Email"><p>Email:</label>
+  <input type="email" name="Email" value="" required> </p>
+
+  <label for="Phone" required><p>Phone Number:+60</label>
+  <input type="number" name="Phone" value="" required></p> <br><br>
+  <input type="submit" name="" value="Submit">
+  <input type="submit" name="" value="Reset">
+</fieldset>
+
+</form>
+  </body>
+</html>
